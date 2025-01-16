@@ -1,0 +1,53 @@
+body{
+    Padding-left: 10%;
+    Padding-right: 10%;
+    background-color: #ffefec
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-family: Serif;
+    color: #3f0a00;
+  }
+  
+  #byline{
+    font-size: 1em;
+    font-family:serif;
+    padding-bottom:20px
+  }
+  
+  p{
+    font-size: 1.1em;
+    line-height:1.3em;
+    padding-bottom:10px;
+  }
+  
+  .img-container{
+    width:100%;
+  }
+  
+  img{
+    margin:auto;
+    display:block;
+  }
+  
+  .cutline {
+    font-size:11px;
+    font-family: serif;
+  }
+  ul{
+    font-size:1.1em;
+    padding-bottom:10px;
+    line-height:2.5em;
+  }
+  
+  #content{
+    width:80%;
+    margin:auto;
+  }
+  
+  @media(orientation:portrait) {
+    #content {
+      width:100%;
+    }
+  }
