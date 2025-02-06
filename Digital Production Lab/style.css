@@ -1,0 +1,53 @@
+body{
+    background-color: #f6e9be;
+}
+#content {
+    width: 60%;
+ margin: auto;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    Color: #221d0c;
+}
+
+#byline {
+    font-family: 'Times New Roman';
+    Color: #221d0c;
+padding-bottom: 40px;
+}
+.img-container{
+    width: 100%
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding-bottom: 7px;
+}
+
+.cutline {
+    font-size: 11px;
+    margin: auto;
+}
+h2 {
+    font-family:'Times New Roman', Georgia, 'Times New Roman', Times, serif;
+    Color: #221d0c;
+    padding-top: 80px;
+}
+
+p{
+    font-family: 'sans-serif';
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    Color: #221d0c;
+}
+
+
+
+/* mobile view */
+@media (orientation: portrait) {
+    #content {
+        width: 100%
+    }
+}
